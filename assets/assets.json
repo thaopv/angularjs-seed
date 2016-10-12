@@ -1,0 +1,28 @@
+{
+    "plugins" : [
+        "bower_components/jquery/dist/jquery.min.js",
+        "bower_components/lodash/dist/lodash.min.js",
+        "bower_components/angular/angular.min.js",
+        "bower_components/angular-resource/angular-resource.min.js",
+        "bower_components/angular-sanitize/angular-sanitize.min.js",
+        "bower_components/angular-route/angular-route.min.js",
+        "bower_components/angular-translate/angular-translate.min.js"
+    ],
+    "js": [{
+        "src": [
+            "src/client/main.js",
+            "src/client/**/*.js",
+            "build/.tmp/js/**/*.js"
+        ],
+        "dest": "build/.tmp/js_min/app.js"
+    }],
+    "copy": {
+        "html": {
+            "cwd": "src/client/views",
+            "src": [
+                "main.html"
+            ],
+            "dest": "build/html"
+        }
+    }
+}

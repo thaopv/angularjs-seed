@@ -1,0 +1,28 @@
+{
+  "name": "project-base",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "thaopv <vanthaophamit@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-resource": "1.5.8",
+    "angular-sanitize": "1.5.8",
+    "angular-mocks": "1.5.8",
+    "angular-translate": "2.12.1",
+    "angular-route": "1.5.8",
+    "lodash": "4.16.4",
+    "jquery": "3.1.1"
+  }
+}
